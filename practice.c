@@ -10,8 +10,10 @@ int main()
 #include <stdio.h>
 int main()
 {   int a=7;
-    if(a%2==O)printf("Even");
-    else printf ("Odd");
+    if(a%2==O);
+      printf("Even");
+    else 
+      printf ("Odd");
     return 0;
 }
 
@@ -21,6 +23,6 @@ int main()
 #include <stdio.h>
 int main()
 {   int a=10,b=5;
-    printf("%d",a+b);
+    printf("sum=%d",a+b);
     return 0;
 }
