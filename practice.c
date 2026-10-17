@@ -133,3 +133,37 @@ void main()
     printf("d=%d\n",d);
     printf("e=%d\n",e);
 }
+
+
+//program 11:area and simple interest
+//output:area=20 si=100
+#include <stdio.h>
+
+int main()
+{
+    float l=5,b=4,area;
+    area=l*b;
+    printf("Area of rectangle=%f\n",area);
+    
+    float p=1000,r=5,t=2,si;
+    si=(p*r*t)/100;
+    printf("simple interest=%f",si);
+    return 0;
+}
+
+
+//program 12:swap two numbers
+//output:After swap:a=20 b=10
+#include <stdio.h>
+
+int main()
+{
+    int a=10,b=20,temp;
+    temp = a;
+    a=b;
+    b=temp;
+    printf("After swap:a=%d b=%d\n",a,b);
+    return 0;
+}
+
+
